@@ -13,12 +13,11 @@ from datetime import timedelta
 import time
 
 # API KEY
-key = "Fz2cYtzAzbCtGglFwltKVqpHgItxZiJc"
+key = "PERSONAL KEY"
 # URL FOR OPEN/CLOSE INFO
 POLYGON_OC_URL = 'https://api.polygon.io/v1/open-close/{}/{}?adjusted=true&apiKey={}'
 # TICKER LIST
-#stocks deleted from TICKERS -> AAPL, MSFT, AMZN, FB, GOOGL, GOOG
-TICKERS = ["TSLA", "NVDA", "JPM", "JNJ", "V", "UNH", "PYPL", "HD", "PG", "MA", "DIS", "ADBE", "XOM", "NFLX", "VZ"]
+TICKERS = ["AAPL", "MSFT", "AMZN", "FB", "GOOGL", "GOOG", "TSLA", "NVDA", "JPM", "JNJ", "V", "UNH", "PYPL", "HD", "PG", "MA", "DIS", "ADBE", "XOM", "NFLX", "VZ"]
 #Date format for URL
 DATE_FORMAT = "{}-{}-{}"
 
